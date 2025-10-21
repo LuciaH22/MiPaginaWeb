@@ -1,2 +1,15 @@
 # MiPaginaWeb
-Ejercicio de desarrollo de Software. Es una pagina con html, css, flexbox,grids, etc
+
+AQUI ESCRIBAN LOS PASOS QUE HACEN, PARA QUE CUALQUIERA PUEDA SEGUIR EL TRABAJO EN CUALQUIER HORARIO
+POR SI SURGE ALGUNA DUDA. 
+MEJOR ORGANIZACION QUE LA MIA KPOS?? NO SE USTEDES VEAN 😉😉😆😆
+
+
+*EMPIEZO YO*
+🗣️🗣️🗣️🗣️🗣️
+
+
+LUCIA:
+> CREACION DE README
+> CREACION DEL ARCHIVO HTML
+> 
