@@ -1,22 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Pagina Web con html</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-<div class="container" id="flex-container">
-  <div class="box">A</div>
-  <div class="box">B</div>
-  <div class="box">C</div>
-</div>
+  <header>
+    <h1>Hola Mundo ! </h1>
+    <p>Esta es una pagina de ejemplo para la materia Desarrollo de Software</p>
+  </header>
 
-<button onclick="toggleDirection()">Cambiar dirección</button>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="flexbox.html">Flexbox</a>
+    <a href="#listas">Listas</a>
+    <a href="#formulario">Formulario</a>
+  </nav>
 
+  <main>
+    <section id="intro">
+      <h2>- Bienvenidos -</h2>
+      <p>Esta pagina muestra lo basico de HTML, como encabezados, listas, enlaces, formularios, y tambien tiene ejemplos de <strong>Flexbox</strong> y <strong>Grid</strong> con CSS.</p>
+      
+    </section>
 
-<script src="ap.js"></script>
+    <section id="listas">
+      <h2>Listas en HTML</h2>
+
+      <h3> Ordenadas </h3>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+
+      <h3>Desordenadas</h3>
+      <ul>
+        <li>Comunicaciones de Datos</li>
+        <li>Sistemas Operativos</li>
+        <li>Desarrollo de Software</li>
+      </ul>
+    </section>
+
+    <section id="grid">
+      <h2>Ejemplo de Grid</h2>
+      <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+      </div>
+    </section>
+
+    <section id="formulario">
+      <h2>Formulario de Contacto</h2>
+      <form>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required="">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required="">
+
+        <input type="submit" value="Registrarme">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p> 2025 - Desarrollo de Software</p>
+  </footer>
 </body>
 </html>

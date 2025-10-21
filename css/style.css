@@ -1,0 +1,137 @@
+/* ====== Estilos generales ====== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+/* ====== Header ====== */
+header {
+  text-align: center;
+  background-color: #6f8399;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* ====== Navegación ====== */
+nav {
+  background-color: #c8d6e6d3;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #6f8399;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Secciones ====== */
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== Listas ====== */
+ol, ul {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+/* ====== Formulario ====== */
+form {
+  display: grid;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #51be95;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* ====== Grid ====== */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.grid-item {
+  background-color: #0062f5b6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+/* ====== Flexbox (de tu compañero) ====== */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  background-color: #ffe0b2be;
+  transition: all 0.5s;
+}
+
+.box {
+  background-color: #f59f00b6;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.2);
+}
+
+/* ====== Footer ====== */
+footer {
+  text-align: center;
+  background-color: #6f8399;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
